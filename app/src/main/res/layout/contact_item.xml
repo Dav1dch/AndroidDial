@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:id="@+id/First_letter"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/contact_phoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:gravity="top"
+            android:text="PhoneNum"
+            android:textSize="14sp"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>
