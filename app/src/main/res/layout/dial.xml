@@ -220,7 +220,7 @@
                     android:background="#ffffff"
                     android:scaleType="fitXY"
                     android:src="@mipmap/dial"
-                    android:text="dial" />
+                     />
             </FrameLayout>
         </LinearLayout>
     </LinearLayout>

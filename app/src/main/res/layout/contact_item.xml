@@ -16,6 +16,7 @@
         android:gravity="center"
         android:id="@+id/First_letter"
         android:textSize="50sp"
+        android:layout_marginBottom="5dp"
         android:textStyle="bold" />
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,6 +46,16 @@
             tools:ignore="RtlCompat" />
 
     </LinearLayout>
+    <ImageButton
+        android:scaleType="fitXY"
+        android:id="@+id/btn_toMessage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:src="@mipmap/message"/>
 </LinearLayout>
 
 
